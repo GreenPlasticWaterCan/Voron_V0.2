@@ -22,7 +22,7 @@ After setting it once, you can use it to compile the software without having to 
 
 -`make KCONFIG_CONFIG=config.display`(make firmware using config.screen presets)
 
--`make flash KCONFIG_CONFIG=config.display FLASH_DEVICE=<device-id>` (this is usually for me is: 0483:df11
+-`make flash KCONFIG_CONFIG=config.display FLASH_DEVICE=<device-id>` (this is usually for me: 0483:df11
 
 The V0 display has now been flashed with the katapult bootloader.
 I've found that the display will struggle to get into the bootloader, so leave it in DFU for now.
