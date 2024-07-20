@@ -28,7 +28,7 @@ Z:
 
 -`make menuconfig KCONFIG_CONFIG=config.mcu` (make menuconfig using the main controller presets, only need to be done the first time)
 
--`make clean KCONFIG_CONFIG=config.mcu`
+-`make clean KCONFIG_CONFIG=config.mcu` (clean cache)
 
 -`make KCONFIG_CONFIG=config.mcu`(make firmware using config.mcu presets)
 
