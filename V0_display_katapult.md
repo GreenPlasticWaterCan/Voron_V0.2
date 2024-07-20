@@ -51,7 +51,7 @@ Remove the jumper and reset the display. Run `lsusb` to check if it's out of dfu
 
 ### Updating the V0 display over katapult
 
--`cd ~/klipper/
+-`cd ~/klipper/`
 
 -`make menuconfig KCONFIG_CONFIG=config.display` (make a menuconfig using the presets for the display)
 
