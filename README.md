@@ -20,7 +20,7 @@ A/B:
 
 Z:
 
-# Steps to updating Trident
+# Steps to updating V0.2
 
 -`sudo service klipper stop` (stop klipper)
 
