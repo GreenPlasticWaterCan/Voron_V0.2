@@ -30,7 +30,7 @@ After flashing klipper this will be fixed.
 
 ### Flashing klipper:
 
--`cd ~/klipper/
+-`cd ~/klipper/`
 
 -`make menuconfig KCONFIG_CONFIG=config.display` (make a menuconfig using the presets for the display)
 
