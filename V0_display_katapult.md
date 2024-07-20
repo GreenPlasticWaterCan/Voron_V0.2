@@ -8,7 +8,7 @@ Put the V0 display in DFU-mode and check with:
 
 #Flashing katapult:
 
--`cd ~/katapult/
+-`cd ~/katapult/`
 
 -`make menuconfig KCONFIG_CONFIG=config.display` (make a menuconfig using presets for the dispaly)
 I use KCONFIG_CONFIG to make presets for MCU's. This is an easy of life hack so you don't have to reconfigure your presets for building firmware between MCU's.
