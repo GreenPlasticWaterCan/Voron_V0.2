@@ -4,7 +4,7 @@ This manual is a reference for using katapult on a V0 screen so you don't have t
 
 Flashing katapult:
 
--`cd ~/katapult/
+-`cd ~/katapult/`
 
 -`make menuconfig KCONFIG_CONFIG=config.display` (make a menuconfig using presets for the dispaly)
 I use KCONFIG_CONFIG to make presets for MCU's. This is an easy of life hack so you don't have to reconfigure your presets for building firmware between MCU's.
@@ -14,7 +14,7 @@ After setting it once, you can use it to compile the software without having to 
 
 -`make clean KCONFIG_CONFIG=config.display` (Clean cache)
 
--`make KCONFIG_CONFIG=config.display' (compile firmware with the config.display settings)
+-`make KCONFIG_CONFIG=config.display` (compile firmware with the config.display settings)
 
 
 -`make menuconfig KCONFIG_CONFIG=config.screen` (make menuconfig using the display presets, only need to be done the first time)
