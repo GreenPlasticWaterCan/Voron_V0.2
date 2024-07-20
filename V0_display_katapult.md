@@ -8,7 +8,7 @@ Put the V0 display in DFU-mode and check with:
 
 #Flashing katapult:
 
--`cd ~/katapult/`
+-`cd ~/katapult/
 
 -`make menuconfig KCONFIG_CONFIG=config.display` (make a menuconfig using presets for the dispaly)
 I use KCONFIG_CONFIG to make presets for MCU's. This is an easy of life hack so you don't have to reconfigure your presets for building firmware between MCU's.
@@ -61,6 +61,6 @@ Remove the jumper and reset the display. Run `lsusb` to check if it's out of dfu
 
 -`ls /dev/serial/by-id/` (check for the new USB-id.
 
--`make flash KCONFIG_CONFIG=config.dispay device=/dev/serial/by-id/<device-id>
+-`make flash KCONFIG_CONFIG=config.dispay device=/dev/serial/by-id/<device-id>`
 
 After this it should be updated.
