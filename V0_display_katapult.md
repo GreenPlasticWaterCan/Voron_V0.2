@@ -53,8 +53,6 @@ Remove the jumper and reset the display. Run `lsusb` to check if it's out of dfu
 
 -`cd ~/klipper/`
 
--`make menuconfig KCONFIG_CONFIG=config.display` (make a menuconfig using the presets for the display)
-
 -`make clean KCONFIG_CONFIG=config.display` (clean cache) 
 
 -`make KCONFIG_CONFIG=config.display` (compile the klipper firmware with the config.display settings)
