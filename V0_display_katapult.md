@@ -6,7 +6,7 @@ Put the V0 display in DFU-mode and check with:
 
 -`lsusb'
 
-#Flashing katapult:
+# Flashing katapult:
 
 -`cd ~/katapult/
 
@@ -28,7 +28,7 @@ The V0 display has now been flashed with the katapult bootloader.
 I've found that the display will struggle to get into the bootloader, so leave it in DFU for now.
 After flashing klipper this will be fixed.
 
-#Flashing klipper:
+# Flashing klipper:
 
 -`cd ~/klipper/
 
@@ -49,7 +49,7 @@ Make sure to set the optional settings too:
 
 Remove the jumper and reset the display. Run `lsusb` to check if it's out of dfu.
 
-#Updating the V0 display over katapult
+# Updating the V0 display over katapult
 
 -`cd ~/klipper/
 
