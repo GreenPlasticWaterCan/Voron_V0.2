@@ -34,7 +34,7 @@ Z:
 
 -`ls /dev/serial/by-id` (optional to query USB-id)
 
--`make flash KCONFIG_CONFIG=config.mcu FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_31000F001750535556323420-if00` (flash over USB)
+-`sudo dfu-util -R -a 0 -s 0x08000000:leave -D ~/katapult/out/katapult.bin -d 0483:df11` (flash over USB)
 
 ## Update V0 Display:
 
