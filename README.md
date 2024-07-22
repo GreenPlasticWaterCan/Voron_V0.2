@@ -46,9 +46,6 @@ Z:
 
 -`make flash KCONFIG_CONFIG=config.screen FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f042x6_2D0032001943304846333520-if00`
 
-alternative:
--`make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f042x6_2D0032001943304846333520-if00`
-
 ## Update toolhead:
 
 -`make menuconfig KCONFIG_CONFIG=config.toolhead` (make menuconfig using the toolhead presets)
