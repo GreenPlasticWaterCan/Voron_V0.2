@@ -42,7 +42,7 @@ Z:
 
 -`make clean KCONFIG_CONFIG=config.screen`
 
--`make KCONFIG_CONFIG=config.screem`(make firmware using config.screen presets)
+-`make KCONFIG_CONFIG=config.screen`(make firmware using config.screen presets)
 
 -`make flash KCONFIG_CONFIG=config.screen FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f042x6_2D0032001943304846333520-if00`
 
